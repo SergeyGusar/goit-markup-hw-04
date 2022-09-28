@@ -148,11 +148,8 @@ li {
   margin-right: 50px;
   padding: 32px 0;
 }
-.icon-envelope {
 
-  margin-right: 10px;
-  width: 16px;
-}
+
 .icon-smartphone {
   
   width: 10px;
@@ -160,13 +157,9 @@ li {
   margin-right: 10px;
   width: 16px;
 }
-.icon-envelope:hover {
-  fill: var(--accent-color);
-}
 
-.icon-tell {
-  margin-right: 10px;
-} 
+
+
  
 .contacts-link .link {
   font-weight: 500;
@@ -276,12 +269,11 @@ li {
 }
 
 .skills {
-  display: flex;display: flex;
-  justify-content: center;
+  display: flex;
+  align-items: center;
   gap: 30px;
   
-  justify-content: center;
-  align-items: center;
+ 
   width: 270px;
   height: 120px;
   background-color: var(--background-team);
@@ -292,12 +284,7 @@ li {
 
 
 
-.skills {
-  display: flex;display: flex;
-  justify-content: center;
-  gap: 30px;
-
-}
+/*  */
 .skills-list {
   display: block;
   
@@ -424,7 +411,7 @@ li {
 
   text-align: center;
 }
-.icon-social {
+.icon-sociall {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -438,7 +425,7 @@ li {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  color: var(--text-color)
+  color: var(--primary-color)
   
 }
 .icon-link:hover {

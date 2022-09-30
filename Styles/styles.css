@@ -258,6 +258,7 @@ li {
   /* outline: 1px solid red; */
 }
 .section-skills {
+  padding-bottom: 94px;
   padding-top: 94px;
 }
 .icon-skills {
@@ -274,7 +275,6 @@ li {
 
 .skills {
   display: flex;
-  align-items: center;
   gap: 30px;
   
  
@@ -286,9 +286,6 @@ li {
  
 }
 
-
-
-/*  */
 .skills-list {
   display: block;
   
@@ -432,7 +429,8 @@ li {
   color: var(--background-icon);
   
 }
-.icon-link:hover {
+.icon-link:hover,
+.icon-link:focus {
   background-color:  var(--accent-color);
   color: var(--text-color);
 }
@@ -474,11 +472,15 @@ li {
   width: 170px;
   height: 92px;
   border: 1px solid;
+  border-radius: 4px;
   color: var(--background-icon);
  
   
 }
-.logo-link:hover {
+
+
+.logo-link:hover,
+.logo-link:focus {
   color: var(--accent-color);
 
 }
@@ -601,7 +603,7 @@ margin-bottom: 20px;
   gap: 10px;
 }
 
-.icon-footer {
+.footer-icon-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -611,8 +613,9 @@ margin-bottom: 20px;
   border-radius: 50%;
  
 }
-.icon-footer:hover {
-  background: var(--accent-color);
+.footer-icon-link:focus,
+.footer-icon-link:hover {
+  background-color: var(--accent-color);
 }
 
 
@@ -623,13 +626,6 @@ margin-bottom: 20px;
   background: var(--text-color);
   border-bottom: 1px solid #ececec;
 } 
-
-
-
-
-
-
-
 
 body {
   background: var(--text-color);
@@ -645,7 +641,10 @@ body {
 }
 
 .button {
-  padding: 6px 22px;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
   margin-right: 8px;
   border-radius: 4px;
 }
@@ -661,13 +660,13 @@ body {
 }
 
 .btn-items {
-  display: flex;
+ 
   margin-bottom: 50px;
   justify-content: center;
 }
 
 .btn-items {
-  font-family: "Roboto";
+  /* font-family: "Roboto"; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -698,13 +697,16 @@ border-radius: 4px;
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #EEEEEE;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
 }
-.portfolio-link { display: block;}
+.portfolio-link {
+   display: block;
+   text-decoration: none;
+  }
 .portfolio-link:hover,
 .portfolio-link:focus {
   color: var(--accent-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-list:nth-child(3n) {
   margin-right: 0;

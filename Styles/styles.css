@@ -54,23 +54,22 @@ li {
 }
 
 /* header */
-.header-container {
+/* .header-container {
   display: block;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
-}
+
+} */
 .header-page {
   border-bottom: 1px solid #ececec;
 }
 
 .container {
   display: flex;
-  width: 1200px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* margin: 0 auto; */
+
 }
 .header-page {
   background: var(--text-color);
@@ -296,18 +295,19 @@ a.current::after {
 /* advantages-переваги */
 
 .container-skills {
-  width: 1200px;
+  width: 1128px;
+  
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
 
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 .section-skills {
-  padding-bottom: 94px;
-  padding-top: 94px;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 .icon-skills {
   display: flex;
